@@ -9,16 +9,16 @@ import spotipy
 # ---------------------- CONFIG ----------------------
 SPOTIFY_CLIENT_ID = "YOUR_CLIENT_ID"
 SPOTIFY_CLIENT_SECRET = "YOUR_CLIENT_SECRET"
-SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"
+SPOTIFY_REDIRECT_URI = "http://localhost:8888/callback"  # <- Must match Spotify dashboard exactly
 
 EMOTION_TO_PLAYLIST = {
-    "happy": "spotify:playlist:37i9dQZF1DXdPec7aLTmlC",
-    "sad": "spotify:playlist:37i9dQZF1DWVrtsSlLKzro",
-    "angry": "spotify:playlist:37i9dQZF1DWZHwH4ZxjqpS",
-    "neutral": "spotify:playlist:37i9dQZF1DWZeKCadgRdKQ",
-    "surprise": "spotify:playlist:37i9dQZF1DX2pSTOxoPbx9",
-    "fear": "spotify:playlist:37i9dQZF1DWZ0wrsBX3TBu",
-    "disgust": "spotify:playlist:37i9dQZF1DWU0ScTcjJBdj"
+    "happy": "spotify:playlist:37i9dQZF1DXdPec7aLTmlC",    # Happy Hits!
+    "sad": "spotify:playlist:37i9dQZF1DWVrtsSlLKzro",      # Life Sucks
+    "angry": "spotify:playlist:37i9dQZF1DWWGFQLoP9qlv",    # Rage Beats
+    "neutral": "spotify:playlist:37i9dQZF1DWZeKCadgRdKQ",  # Chill Vibes
+    "surprise": "spotify:playlist:37i9dQZF1DX2pSTOxoPbx9", # All New Indie
+    "fear": "spotify:playlist:37i9dQZF1DX4sWSpwq3LiO",     # Dark & Stormy
+    "disgust": "spotify:playlist:37i9dQZF1DX3rxVfibe1L0"   # Anti Pop
 }
 
 # ---------------------- SPOTIFY AUTH ----------------------
